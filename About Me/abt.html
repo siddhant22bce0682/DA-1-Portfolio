@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="abt.css">
+</head>
+<body>
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img style="height: auto;" src="assests/iii.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Siddhant and I'm a  <span id="element"></span>
+                    <p>I'm a sophomore pursuing a Bachelor's in Computer Science at VIT Vellore, with a knack for Python, Java, C, and C++. I've honed my skills in Data Structures and Algorithms, and now I'm delving into the realm of web development, mastering CSS, HTML, JavaScript, and Node.js. I thrive on collaborating with experts, contributing to pioneering projects, and cracking intricate puzzles. Entrepreneurship intrigues me, and my strong communication skills fuel my passion for innovative problem-solving. I'm eager to leverage my diverse skill set to craft impactful solutions and stay ahead of the curve in technology trends.</p>
+                    <a href="assests/Resume-go.pdf">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 90,
+            loop: true
+        });
+    </script>
+</body>
+</html>

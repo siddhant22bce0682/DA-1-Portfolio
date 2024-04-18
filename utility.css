@@ -1,0 +1,79 @@
+.purple {
+    color: gold;
+}
+
+.textgray {
+    color: grey;
+}
+
+.textcenter {
+    color: gray;
+}
+
+.instagram-link,
+.twitter-link,
+.linkedin-link,
+.gallery-link,
+.achievements-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.instagram-link img,
+.twitter-link img,
+.linkedin-link img,
+.gallery-link img,
+.achievements-link img {
+    width: 30px;
+}
+
+li img {
+    width: 30px;
+    height: auto;
+}
+
+/* Gallery link */
+.gallery-link:hover img,
+.achievements-link:hover img,
+.twitter-link:hover img,
+.instagram-link:hover img,
+.linkedin-link:hover img,
+.envelope-link:hover img {
+    transform: scale(1.2);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap; /* Added wrap for responsiveness */
+    justify-content: space-between; /* Adjusted to space-between for better spacing */
+}
+
+.flex > div {
+    flex: 1;
+    margin-bottom: 10px; /* Added margin-bottom for better spacing */
+}
+
+.flex ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.flex ul li {
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .flex > div {
+        flex-basis: 48%; /* Adjusted flex-basis for better alignment on smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .flex > div {
+        flex-basis: 100%; /* Adjusted flex-basis to take full width on smaller screens */
+    }
+}

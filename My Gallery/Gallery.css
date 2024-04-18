@@ -1,0 +1,28 @@
+body{
+    background-image: url(assests/dark-hexagonal-background-with-gradient-color/5073414.jpg);
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    color: gold;
+    text-align: center;
+  }
+  h1{
+    color: gold;
+    text-align: center;
+  }

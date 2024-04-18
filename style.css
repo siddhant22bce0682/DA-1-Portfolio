@@ -1,0 +1,197 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #2C2E3A;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: lavender;
+    font-size: 1.5rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 140px 0;
+}
+
+.firstSection > div {
+    width: 40%;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 80%;
+    height: 75vh;
+    opacity: 0.7;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+}
+
+main hr {
+    border: 0;
+    background-color: gold;
+    height: 1.2px;
+    margin: 60px auto;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.secondsection .box {
+    background: white;
+    width: 77vw;
+    height: auto;
+    margin: 56px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.secondsection .vertical {
+    height: auto;
+    width: 150px;
+    background-color: white;
+    margin: 0 30px;
+}
+
+.vertical-text {
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.vertical-desc {
+    color: #C4C6C8;
+    width: 150px;
+    font-size: 9px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #2C2E3A;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-evenly;
+}
+
+.flex ul {
+    list-style: none;
+}
+
+.flex > div {
+    width: 22px;
+}
+
+footer .textcenter {
+    text-align: center;
+    padding: 12px 0;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    border: 5px solid #2C2E3A;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.leftsection .buttons {
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .firstSection {
+        flex-direction: column;
+    }
+
+    .leftsection {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .rightSection img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .firstSection > div {
+        width: 90%;
+    }
+
+    .leftsection {
+        font-size: 1.5rem;
+    }
+
+    .rightSection img {
+        width: 100%;
+        height: auto;
+    }
+
+    main hr {
+        margin: 40px auto;
+    }
+
+    .secondsection .box {
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    .secondsection .vertical {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .vertical-text,
+    .vertical-desc {
+        width: 100%;
+        text-align: center;
+    }
+}
