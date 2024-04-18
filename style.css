@@ -1,197 +1,129 @@
-nav {
+nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80px;
-    background-color: #2C2E3A;
+    height:80px;
+    background-color:#2C2E3A ;
 }
 
-nav ul {
-    display: flex;
-    justify-content: center;
+nav ul{
+display: flex;
+justify-content: center;
 }
 
-nav ul li {
+nav ul li{
     list-style: none;
-    margin: 0 23px;
+    margin:0 23px ;
 }
-
-nav ul li a {
-    text-decoration: none;
-    color: aliceblue;
-}
-
-nav ul li a:hover {
-    text-decoration: none;
-    color: lavender;
+    nav ul li a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    nav ul li a:hover{
+        text-decoration: none;
+        color: lavender;
+        font-size: 1.5rem;
+    }
+.left{
     font-size: 1.5rem;
 }
-
-.left {
-    font-size: 1.5rem;
-}
-
-.firstSection {
+.firstSection{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 80px 0;
     margin: 140px 0;
 }
-
-.firstSection > div {
+.firstSection > div{
     width: 40%;
-}
 
-.leftsection {
+}
+.leftsection{
     font-size: 3rem;
+    /* margin: 70px 0; */
 }
-
-.rightSection img {
-    width: 80%;
-    height: 75vh;
-    opacity: 0.7;
+.rightSection img{
+width: 80%;
+height: 75vh;
+opacity: 0.7;
 }
-
-.secondsection {
-    max-width: 80vw;
-    margin: auto;
-    height: auto;
+.secondsection{
+max-width: 80vw;
+margin: auto;
+height: 80vh;
 }
-
-main hr {
-    border: 0;
-    background-color: gold;
-    height: 1.2px;
-    margin: 60px auto;
+main hr{
+border: 0;
+background-color: gold;
+height: 1.2px;
+margin: 60px 84px;
 }
-
-.secondsection h1 {
+.secondsection h1{
     font-size: 1.9rem;
 }
-
-.secondsection .box {
+.secondsection .box{
     background: white;
     width: 77vw;
-    height: auto;
-    margin: 56px auto;
+    height: 2px;
+    margin: 56px 0;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
-.secondsection .vertical {
-    height: auto;
-    width: 150px;
-    background-color: white;
-    margin: 0 30px;
+.secondsection .vertical{
+height: 93px;
+width: 1px;
+background-color: white;
+margin: 0 100px; 
+/* change for line to extend  */
 }
-
-.vertical-text {
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-text{
+    position: relative;
+    top: 75px;
     width: 150px;
     font-size: 14px;
-    text-align: center;
-    margin-top: 10px;
 }
+.vertical-desc{
+position: relative;
+top: 86px;
+color: #C4C6C8;
+width: 150px;
+font-size: 9;
 
-.vertical-desc {
-    color: #C4C6C8;
-    width: 150px;
-    font-size: 9px;
-    text-align: center;
-    margin-top: 10px;
 }
-
-footer {
+footer{
     background-color: #2C2E3A;
-    padding: 20px;
-}
+    /* height: 233px; */
 
-.flex {
-    display: flex;
-    padding: 10px 20px;
-    justify-content: space-evenly;
 }
-
-.flex ul {
-    list-style: none;
+.flex{
+display: flex;
+/* margin: 23px 122px; */
+padding: 23px 122px; 
+justify-content: space-evenly;
+/* //top bot //left right */
 }
-
-.flex > div {
+.flex ul{
+    list-style:none;
+}
+.flex>div{
     width: 22px;
 }
-
-footer .textcenter {
+footer .textcenter{
     text-align: center;
     padding: 12px 0;
 }
-
-.leftsection .btn {
+.leftsection .btn{
     padding: 12px;
     border: 5px solid #2C2E3A;
-    font-size: 20px;
-    border-radius: 6px;
+font-size: 20px;
+border-radius: 6px ;
 }
-
-.leftsection .buttons {
-    padding: 20px 0;
-}
-
-@media only screen and (max-width: 768px) {
-    .firstSection {
-        flex-direction: column;
-    }
-
-    .leftsection {
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    .rightSection img {
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    .firstSection > div {
-        width: 90%;
-    }
-
-    .leftsection {
-        font-size: 1.5rem;
-    }
-
-    .rightSection img {
-        width: 100%;
-        height: auto;
-    }
-
-    main hr {
-        margin: 40px auto;
-    }
-
-    .secondsection .box {
-        width: 90%;
-        margin: 40px auto;
-    }
-
-    .secondsection .vertical {
-        width: 100%;
-        margin: 0 0 20px;
-    }
-
-    .vertical-text,
-    .vertical-desc {
-        width: 100%;
-        text-align: center;
-    }
+.leftsection .buttons{
+    padding: 50px 0;
 }
