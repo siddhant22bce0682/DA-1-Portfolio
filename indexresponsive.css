@@ -1,0 +1,105 @@
+
+  @media (max-width: 768px) {
+    /* Small screens: Vertical navigation bar */
+    nav {
+      flex-direction: column; /*navigation items vertically */
+      align-items: center; 
+      height: auto; 
+    }
+  
+    nav ul {
+      flex-direction: column; /* for vertically */
+    }
+  
+    nav ul li {
+      margin-bottom: 10px; /* vertical spacing for smaller screens */
+    }
+  
+    .firstSection {
+      flex-direction: column; /*for vertically */
+    }
+  
+    .firstSection > div {
+      width: 100%; /* Make content sections full width */
+    }
+  }
+  /* below line  */
+  /* Base styles for all screen sizes */
+
+.secondsection h1 {
+  font-size: 1.9rem;
+}
+
+.secondsection .box {
+  background: white;
+  width: 77vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondsection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 auto; /* Center the vertical line on all screens */
+}
+
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+.vertical-text {
+  position: relative;
+  top: 75px;
+  width: 150px;
+  font-size: 14px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: #C4C6C8;
+  width: 150px;
+  font-size: 9px;
+}
+
+/* Footer responsiveness */
+/* Footer styles */
+footer {
+    background-color: #2C2E3A;
+    padding: 15px 20px; /* Reduce padding for smaller size */
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Wrap footer elements on smaller screens */
+  }
+  
+  .flex ul {
+    list-style: none;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .flex > div {
+    width: 22px;
+    margin-bottom: 15px; /* Add vertical spacing for stacked elements */
+  }
+  
+  footer .textcenter {
+    text-align: center;
+    padding: 12px 0;
+  }
+  
+  /* Media queries for responsive footer */
+  @media (max-width: 768px) {
+    .flex > div {
+      width: 100%; /* Make footer elements full width on small screens */
+    }
+  }
+  
